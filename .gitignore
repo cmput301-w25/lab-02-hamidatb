@@ -1,0 +1,60 @@
+# Android/IntelliJ specific files
+.idea/
+.gradle/
+build/
+captures/
+local.properties
+
+# Gradle files
+*.iml
+.gradle/
+build/
+gradle-wrapper.jar
+
+# Android Studio log, crashlytics, and other files
+*.log
+.crashlytics/
+fabric.properties
+
+# Avoid keystore files (if any)
+*.jks
+*.keystore
+
+# Avoid sensitive or platform-specific files
+local.properties
+.DS_Store
+
+# Avoid OS-specific files
+Thumbs.db
+*.swp
+*.swo
+
+# Avoid generated content
+/app/build/
+app/build/
+
+# Exclude generated files in intermediate folders
+*/build/intermediates/
+*/build/outputs/
+
+# Cache files
+.cxx/
+.externalNativeBuild/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/codeStyles/
+
+# Miscellaneous
+*.apk
+*.ap_
+*.db
+*.lock
+*.bak
+*.orig
+*.tmp
+
+# Exclude screenshots
+/doc/*.png
