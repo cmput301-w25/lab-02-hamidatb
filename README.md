@@ -4,7 +4,7 @@
 ## Student Details
 
 - **Full Name:** `Hamidat Bello`
-- **CCID:** `hamidat>`
+- **CCID:** `hamidat`
 
 ## References and Resources
 
