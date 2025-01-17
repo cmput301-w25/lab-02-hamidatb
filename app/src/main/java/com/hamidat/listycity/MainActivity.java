@@ -32,8 +32,6 @@ public class MainActivity extends AppCompatActivity {
         Button addCityButton = findViewById(R.id.add_city_button);
 
         // Declare an array of strings to store the major city list
-        // Bug -> Change logic to use delete city button
-        // Bug -> Need to be able to scroll down in the city list
         String[] cities = {"Edmonton", "Vancouver", "Moscow", "Sydney", "Berlin", "Vienna", "Tokyo", "Beijing", "Osaka", "New Delhi"};
 
         dataList = new ArrayList<>();
